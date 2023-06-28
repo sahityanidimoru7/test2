@@ -1,1 +1,11 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tech-docs
+  description: tech-docs-description
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ${{values.owner | dump}}
