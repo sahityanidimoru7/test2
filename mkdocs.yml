@@ -1,1 +1,8 @@
-read
+site_name: tech-docs
+site_description: tech-docs-descrption
+nav:
+  - Introduction: index.md
+
+
+plugins:
+  - techdocs-core
